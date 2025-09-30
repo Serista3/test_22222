@@ -1,6 +1,7 @@
 pipeline {
     agent any
 
+
     environment {
         // Define variables
         DOCKER_IMAGE       = 'serista/fastapi-webhook:latest'
